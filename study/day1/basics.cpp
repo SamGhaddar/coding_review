@@ -40,8 +40,8 @@ void addOneRef(int& r) {
 // EXAMPLE:
 int lengthOf(const string& s) { return s.size(); }
 
-// TODO: return true if the string is empty. (Use const string&, and s.empty() or s.size()).
-bool isEmpty(/* fix the parameter */) {
+// TODO: return true if the string s is empty. (Hint: s.empty() or s.size() == 0)
+bool isEmpty(const string& s) {
     return false;  // change this line
 }
 
